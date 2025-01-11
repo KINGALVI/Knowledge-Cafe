@@ -1,7 +1,5 @@
-
 import BlogsList from './Components/Blogs-Components/Blog-List'
 import Header from './Components/Header/Header'
-
 
 function App() {
 
