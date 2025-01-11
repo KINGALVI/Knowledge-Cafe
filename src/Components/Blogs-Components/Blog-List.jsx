@@ -13,7 +13,9 @@ const BlogsList = () => {
 
     return (
         <>
-            {API.map(Blog => <BlogSection key={Blog.id} Blogs={Blog}></BlogSection>)}
+            <section className="md:w-2/3">
+                {API.map(Blog => <BlogSection key={Blog.id} Blogs={Blog}></BlogSection>)}
+            </section>
         </>
     );
 
