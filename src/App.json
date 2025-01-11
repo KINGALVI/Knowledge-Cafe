@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "author_name": "Alice Johnson",
+        "author_image": "https://example.com/images/alice.jpg",
+        "cover": "Exploring the Future of AI",
+        "posted_date": "2025-01-10",
+        "reading_time": "5 min",
+        "hashtags": [
+            "#ArtificialIntelligence",
+            "#MachineLearning",
+            "#AI"
+        ]
+    },
+    {
+        "id": 2,
+        "author_name": "Bob Smith",
+        "author_image": "https://example.com/images/bob.jpg",
+        "cover": "Quantum Computing Breakthroughs",
+        "posted_date": "2025-01-11",
+        "reading_time": "7 min",
+        "hashtags": [
+            "#QuantumComputing",
+            "#QuantumMechanics",
+            "#QC"
+        ]
+    },
+    {
+        "id": 3,
+        "author_name": "Carol Davis",
+        "author_image": "https://example.com/images/carol.jpg",
+        "cover": "The New Era of Cybersecurity",
+        "posted_date": "2025-01-12",
+        "reading_time": "10 min",
+        "hashtags": [
+            "#CyberSecurity",
+            "#InfoSec",
+            "#CyberSec"
+        ]
+    },
+    {
+        "id": 4,
+        "author_name": "David Lee",
+        "author_image": "https://example.com/images/david.jpg",
+        "cover": "Blockchain Revolution",
+        "posted_date": "2025-01-13",
+        "reading_time": "8 min",
+        "hashtags": [
+            "#Blockchain",
+            "#Cryptocurrency",
+            "#BlockchainTech"
+        ]
+    },
+    {
+        "id": 5,
+        "author_name": "Eva Patel",
+        "author_image": "https://example.com/images/eva.jpg",
+        "cover": "Cloud Computing Innovations",
+        "posted_date": "2025-01-14",
+        "reading_time": "6 min",
+        "hashtags": [
+            "#CloudComputing",
+            "#CloudServices",
+            "#CloudTech"
+        ]
+    }
+]
