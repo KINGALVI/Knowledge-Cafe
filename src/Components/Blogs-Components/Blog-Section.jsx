@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 
 
-const BlogSection = ({ Blogs }) => {
+const BlogSection = ({ Blogs, handelBooksmarks }) => {
     const { cover_image, author_image, author_name, posted_date, reading_time, cover, hashtags } = Blogs
     return (
         <>
@@ -17,7 +17,7 @@ const BlogSection = ({ Blogs }) => {
                             {posted_date}
                         </div>
                     </div>
-                    <div className='flex items-center gap-2'>
+                    <div className='flex items-center gap-2' onClick={handelBooksmarks}>
                         <p>{reading_time}</p>
                         <FontAwesomeIcon className='h-5 w-5' icon={faBookmark} />
                     </div>
@@ -31,7 +31,8 @@ const BlogSection = ({ Blogs }) => {
 };
 
 BlogSection.propTypes = {
-    Blogs: PropTypes.object
+    Blogs: PropTypes.object,
+    handelBooksmarks: PropTypes.func
 }
 
 export default BlogSection;
