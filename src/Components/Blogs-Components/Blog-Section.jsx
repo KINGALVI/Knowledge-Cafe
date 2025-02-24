@@ -17,7 +17,7 @@ const BlogSection = ({ Blogs, handelBooksmarks }) => {
                             {posted_date}
                         </div>
                     </div>
-                    <div className='flex items-center gap-2' onClick={handelBooksmarks}>
+                    <div className='flex items-center gap-2' onClick={() => handelBooksmarks(Blogs)}>
                         <p>{reading_time}</p>
                         <FontAwesomeIcon className='h-5 w-5' icon={faBookmark} />
                     </div>
