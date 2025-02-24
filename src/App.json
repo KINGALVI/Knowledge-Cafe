@@ -6,7 +6,7 @@
         "cover": "Exploring the Future of AI",
         "cover_image": "/knowledge-cafe-project-image/images/1.jpg",
         "posted_date": "2025-01-10",
-        "reading_time": "5 min",
+        "reading_time": 5,
         "hashtags": "#ArtificialIntelligence #MachineLearning #AI"
     },
     {
@@ -16,7 +16,7 @@
         "cover": "Quantum Computing Breakthroughs",
         "cover_image": "/knowledge-cafe-project-image/images/2.png",
         "posted_date": "2025-01-11",
-        "reading_time": "7 min",
+        "reading_time": 7,
         "hashtags": "#QuantumComputing #QuantumMechanics #QC"
     },
     {
@@ -26,7 +26,7 @@
         "cover": "The New Era of Cybersecurity",
         "cover_image": "/knowledge-cafe-project-image/images/3.png",
         "posted_date": "2025-01-12",
-        "reading_time": "10 min",
+        "reading_time": 10,
         "hashtags": "#CyberSecurity #InfoSec #CyberSec"
     },
     {
@@ -36,7 +36,7 @@
         "cover": "Blockchain Revolution",
         "cover_image": "/knowledge-cafe-project-image/images/4.jpg",
         "posted_date": "2025-01-13",
-        "reading_time": "8 min",
+        "reading_time": 8,
         "hashtags": "#Blockchain #Cryptocurrency #BlockchainTech"
     }
 ]
