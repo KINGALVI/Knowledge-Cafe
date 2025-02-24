@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import PropTypes from 'prop-types';
 import BlogSection from "./Blog-Section";
 
-const BlogsList = ({ handelBooksmarks , handelMarkAsRead }) => {
+const BlogsList = ({ handelBooksmarks, handelMarkAsRead }) => {
 
     const [API, laodAPI] = useState([]);
 
