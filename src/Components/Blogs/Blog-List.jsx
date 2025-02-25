@@ -15,7 +15,7 @@ const BlogsList = ({ handelBooksmarks, handelMarkAsRead }) => {
     return (
         <>
             <section className="md:w-2/3">
-                {API.map(Blog => <BlogSection key={Blog.id} Blogs={Blog} handelBooksmarks={handelBooksmarks} handelMarkAsRead={handelMarkAsRead}></BlogSection>)}
+                {API.map((Blog, idx) => <BlogSection key={idx} Blogs={Blog} handelBooksmarks={handelBooksmarks} handelMarkAsRead={handelMarkAsRead}></BlogSection>)}
             </section>
         </>
     );

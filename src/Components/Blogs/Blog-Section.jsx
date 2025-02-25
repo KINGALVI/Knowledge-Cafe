@@ -4,7 +4,7 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 
 
 const BlogSection = ({ Blogs, handelBooksmarks, handelMarkAsRead }) => {
-    const { cover_image, author_image, author_name, posted_date, reading_time, cover, hashtags } = Blogs
+    const { id, cover_image, author_image, author_name, posted_date, reading_time, cover, hashtags } = Blogs
     return (
         <>
             <section className='m-10 pl-20'>
@@ -25,7 +25,7 @@ const BlogSection = ({ Blogs, handelBooksmarks, handelMarkAsRead }) => {
                 <h2 className='text-4xl font-bold m-5'> {cover}</h2>
                 <div className='tracking-widest m-5'> {hashtags} </div>
                 <button
-                    onClick={() => handelMarkAsRead(reading_time)}
+                    onClick={() => handelMarkAsRead(reading_time, id)}
                     className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-5'>MARK AS READ</button>
             </section>
         </>
