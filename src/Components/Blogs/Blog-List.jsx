@@ -7,7 +7,7 @@ const BlogsList = ({ handelBooksmarks, handelMarkAsRead }) => {
     const [API, laodAPI] = useState([]);
 
     useEffect(() => {
-        fetch('/src/App.json')
+        fetch('/App.json')
             .then(response => response.json())
             .then(Data => laodAPI(Data))
     }, [])

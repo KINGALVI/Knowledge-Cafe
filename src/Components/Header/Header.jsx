@@ -1,4 +1,4 @@
-import Profile from '../../../knowledge-cafe-project-image/images/profile.png'
+import Profile from '../../../public/knowledge-cafe-project-image/images/profile.png'
 
 const Header = () => {
     return (
