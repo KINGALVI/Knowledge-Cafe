@@ -1,8 +1,24 @@
-# React + Vite
+# 📚 Knowledge Café
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔍 Project Overview
+Knowledge Café is a dynamic blogging platform that allows users to explore insightful articles on cutting-edge technologies. It provides an interactive experience where users can **bookmark** blogs, **track their reading time**, and engage with educational content seamlessly. Built using modern web technologies, it ensures a **responsive** and **user-friendly** interface.
 
-Currently, two official plugins are available:
+## 🛠 Technologies Used
+- **React** (with Vite) - For fast and efficient component-based development
+- **Tailwind CSS** - For modern and responsive UI styling
+- **JavaScript (ES6)** - For dynamic interactions
+- **Netlify Deployment** - For seamless hosting and accessibility
+- **Font Awesome** - For elegant icons enhancing user experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Features
+1. **Bookmarking System** - Allows users to save articles for later reference.
+2. **Reading Time Tracker** - Helps users keep track of how much time they've spent reading.
+3. **Dynamic Content Rendering** - Fetches blog posts from `App.json` and displays them interactively.
+
+## 📂 Project Setup
+Follow these steps to run the project locally:
+```bash
+git clone https://github.com/KINGALVI/React-Knowledge-Cafe
+cd knowledge-cafe
+npm install
+npm run dev
