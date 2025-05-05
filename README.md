@@ -18,4 +18,4 @@ Knowledge Café is a dynamic blogging platform that allows users to explore insi
 ## 📂 Project Setup
 Follow these steps to run the project locally:
 ```bash
-git clone https://github.com/KINGALVI/React-Knowledge-Cafe
+git clone https://github.com/KINGALVI/React-Knowledge-Cafe.git
